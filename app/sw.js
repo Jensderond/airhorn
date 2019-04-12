@@ -30,7 +30,7 @@ self.addEventListener('install', e => {
         `/scripts/comlink.global.js`,
         `/scripts/messagechanneladapter.global.js`,
         `/scripts/pwacompat.min.js`,
-        `/sounds/airhorn.mp3`
+        `/sounds/doorbell.mp3`
       ])
           .then(() => self.skipWaiting());
     })
