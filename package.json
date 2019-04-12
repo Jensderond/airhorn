@@ -2,6 +2,10 @@
   "name": "airhorn",
   "version": "1.0.0",
   "description": "A sample web app that lets you use your site as an airhorn.",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp default"
+  },
   "devDependencies": {
     "browser-sync": "^2.24.4",
     "comlinkjs": "^2.4.1",
