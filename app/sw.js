@@ -17,7 +17,7 @@
  *
  */
 
-const version = "0.6.11";
+const version = "0.7.00";
 const cacheName = `airhorner-${version}`;
 self.addEventListener('install', e => {
   e.waitUntil(
