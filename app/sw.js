@@ -25,6 +25,7 @@ self.addEventListener('install', e => {
       return cache.addAll([
         `/`,
         `/index.html`,
+        `/manifest.json`,
         `/styles/main.css`,
         `/scripts/main.min.js`,
         `/scripts/comlink.global.js`,
