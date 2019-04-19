@@ -30,7 +30,8 @@ self.addEventListener('install', e => {
         `/scripts/comlink.global.js`,
         `/scripts/messagechanneladapter.global.js`,
         `/scripts/pwacompat.min.js`,
-        `/sounds/doorbell.mp3`
+        `/sounds/doorbell.mp3`,
+        `/images/redkiwi_logo_only-text.svg`
       ])
           .then(() => self.skipWaiting());
     })
